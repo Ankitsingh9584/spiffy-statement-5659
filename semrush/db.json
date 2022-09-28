@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "email": "ankits.8080@gmail.com",
+      "password": 123456,
+      "id": 1
+    },
+    {
+      "email": "ankits.85@gmail.com",
+      "password": 1234,
+      "id": 2
+    }
+  ]
+}
