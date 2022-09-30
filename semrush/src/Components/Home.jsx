@@ -1,5 +1,9 @@
 
 import { Box, Button, Container, Heading, Input ,Image, Flex, List, UnorderedList, ListItem, Avatar} from "@chakra-ui/react"
+import {CheckIcon} from "@chakra-ui/icons"
+
+
+import Footer from "./Footer"
 const data_crousel=["https://cdn.semrush.com/static/index/logos/Amazon_logo.9f5bdb154006.svg",
 "https://cdn.semrush.com/static/index/logos/Quora_logo.38ca9be29021.svg",
 "https://cdn.semrush.com/static/index/logos/General_Electric_logo.bab81321a38c.svg",
@@ -140,12 +144,12 @@ marginLeft={"-30%"} fontSize={"5xl"} fontWeight={"semibold"} width={"170%"} colo
 
 </Flex>
 
-<Flex marginTop={"19%"}  marginLeft={"-70%"} width={"100%"}>
+<Flex marginTop={"29%"}  marginLeft={"-70%"} width={"100%"}>
     <Box width={"50%"}>
-      <Heading align={"start"} width={"250%"} color={"black"}>More data. More insights</Heading>  
-      <Heading marginTop={"11%"} align={"start"} width={"250%"} color={"black"} fontWeight={"normal"} fontSize={"2xl"}>With the size of our SEO databases and speed of our backlink crawler, imagine what you can achieve if you have the insights your competitors don’t.</Heading>
-      <Button h={"55px"}  marginLeft={"-23%"} 
-      width={"79%"}
+      <Heading align={"start"} width={"320%"} color={"black"}>More data. More insights</Heading>  
+      <Heading marginTop={"16%"} align={"start"} width={"430%"} color={"black"} fontWeight={"normal"} fontSize={"2xl"}>With the size of our SEO databases and speed of our backlink crawler, imagine what you can achieve if you have the insights your competitors don’t.</Heading>
+      <Button h={"55px"}  marginLeft={"-2%"} 
+      width={"106%"}
 marginTop={"16%"}
 bg={"#ff622d"} color={'white'}
                   _hover={{
@@ -154,18 +158,117 @@ bg={"#ff622d"} color={'white'}
 Learn more
   </Button>
     </Box>
-    <Box>
+    <Box  marginLeft={"120%"} width={"50%"}>
 
-            <Box><Heading color={"black"}>hello</Heading></Box>
-          
-        
+           <Flex gap={"8%"}>
+           <Box paddingLeft={"60px"}  paddingBottom={7} paddingRight={"60px"}  color={"black"} boxShadow='dark-lg'  rounded='md' bg='white'>
+<Heading marginTop={"20%"} fontSize={"5xl"} >22B</Heading>
+<Heading marginTop={"6%"} fontSize={"l"} fontWeight={"medium"}>keywords</Heading>
+</Box>
+
+<Box  paddingLeft={"60px"}  paddingTop={5}  paddingRight={"60px"} color={"black"} boxShadow='dark-lg'  rounded='md' bg='white'>
+<Heading fontSize={"5xl"} >43T</Heading>
+<Heading marginTop={"6%"} fontSize={"l"} fontWeight={"medium"}>backlinks</Heading>
+</Box>
+  </Flex>
+          <Flex  marginTop={"8%"} gap={"8%"}>
+          <Box   paddingTop={5} paddingLeft={"40px"} paddingRight={"40px"} color={"black"} boxShadow='dark-lg' rounded='md' bg='white'>
+<Heading fontSize={"5xl"} >808M</Heading>
+<Heading marginTop={"6%"} fontSize={"l"} fontWeight={"medium"}>domain profiles</Heading>
+</Box>
+
+
+<Box paddingBottom={5} paddingTop={5}  paddingLeft={"60px"} paddingRight={"60px"} color={"black"} boxShadow='dark-lg'  rounded='md' bg='white'>
+<Heading fontSize={"5xl"} >140</Heading>
+<Heading marginTop={"6%"} marginLeft={"-40%"} width={"200%"} fontSize={"l"} fontWeight={"medium"}>geo datbases</Heading>
+</Box>
+
+            </Flex>        
        
         
 
        
     </Box>
 </Flex>
+{/*  */}
+<Flex marginLeft={"-80%"} marginTop={"20%"}>
+  <Box width={"110%"}>
+
+    <Image src="https://cdn.semrush.com/static/index/Oleg_Shchegolev_in_hat.0ac9c95bbf09.webp"/>
+  </Box>
+  <Box marginLeft={"5%"} marginTop={"15%"}>
+<Heading fontWeight={"medium"} fontSize={"5xl"} width={"200%"}  color={"black"}>Our CEO will eat his hat</Heading>
+<Heading  marginTop={"7%"} width={"200%"}  color={"black"} fontWeight={"medium"} fontSize={"xl"}>... if you find another tool that lets you do all these things</Heading>
+
+
+
+
+
+<List fontSize={"lg"} marginTop={"12%"} width={"200%"} textAlign={"start"} marginLeft={"19%"} color={"black"} spacing={3}>
+  <ListItem>
+  <CheckIcon marginRight={"2%"} color={"orange"}/>Access over 22 billion keywords for 130 countries
+    
+  </ListItem>
+  <ListItem>
+  <CheckIcon marginRight={"2%"}  color={"orange"}/>
+  Run in-depth website audit based on 130+ checks
+  </ListItem>
+  <ListItem>
+  <CheckIcon marginRight={"2%"}  color={"orange"}/>
+  Get recommendations to improve your content to increase search rankings
+  </ListItem>
+  {/* You can also use custom icons from react-icons */}
+  <ListItem>
+  <CheckIcon marginRight={"2%"}  color={"orange"}/>
+  Track and analyze competitor websites and marketing strategies
+  </ListItem>
+  <ListItem>
+  <CheckIcon marginRight={"2%"}  color={"orange"}/>
+  Create and track your PPC campaigns
+  </ListItem>
+  <ListItem>
+  <CheckIcon marginRight={"2%"}  color={"orange"}/>
+  Draft, schedule and post content on social
+  </ListItem>
+  <ListItem>
+  <CheckIcon marginRight={"2%"}  color={"orange"}/>
+  Draft, schedule and post content on social
+  </ListItem>
+</List>
+
+<Button h={"55px"}  marginLeft={"-2%"} 
+      width={"106%"}
+marginTop={"12%"}
+marginLeft={"19%"}
+bg={"#ff622d"} color={'white'}
+                  _hover={{
+                    bg: '#b23300',
+                  }} size='lg'>
+Discover all Semrush features
+  </Button>
+  </Box>
+</Flex>
+{/* */}
+
+
     </Container>
+    <Box marginTop={"10%"} height={"298px"} bg={"#421983"}>
+<Heading  py={"3%"} marginLeft={"-48%"} fontSize={"5xl"} width={"200%"}  >Get started with Semrush today</Heading>
+<Heading fontWeight={"normal"} marginTop={"-1.5%"}  marginLeft={"-48%"} fontSize={"2xl"} width={"200%"} > Get 7 days of full access to all toolkits. Cancel anytime.</Heading>
+<Button h={"55px"}  marginLeft={"-2%"} 
+    
+marginTop={"2%"}
+marginLeft={"4%"}
+bg={"#ff622d"} color={'white'}
+                  _hover={{
+                    bg: '#b23300',
+                  }} size='lg'>
+Discover all Semrush features
+  </Button>
+</Box>
+
+{/* Footer component import */}
+<Footer/>
 </Box>
 
     </>
