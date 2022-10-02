@@ -9,6 +9,16 @@
       "email": "ankits.85@gmail.com",
       "password": 1234,
       "id": 2
+    },
+    {
+      "email": "a@gmail.com",
+      "password": 1234,
+      "id": 3
+    },
+    {
+      "email": "Ankit@gmail.com",
+      "password": 1234,
+      "id": 4
     }
   ]
 }
