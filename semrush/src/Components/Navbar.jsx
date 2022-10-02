@@ -80,7 +80,7 @@ export default function Navbar() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('white', 'white')}>
-  <Image color={"white"} src="https://seeklogo.com/images/S/semrush-logo-A3301E3A06-seeklogo.com.png"/>
+  <Image color={"white"} onClick={()=>window.location.href="/"} src="https://seeklogo.com/images/S/semrush-logo-A3301E3A06-seeklogo.com.png"/>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
