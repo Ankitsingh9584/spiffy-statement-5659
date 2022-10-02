@@ -14,13 +14,15 @@ import {
     Image,HStack
   } from '@chakra-ui/react';
   import axios from "axios"
-import { useState } from 'react';
-
+import { useState,useContext } from 'react';
+import {AuthContext} from "./AuthContext"
+import { useNavigate } from 'react-router-dom';
 export default function Login(){
-
+  const {isAuth,updateAuth}=useContext(AuthContext)
     const [email,setEmail]=useState("")
     const [pass,setPass]=useState("")
      const [data,setData]=useState([])
+     let navigate=useNavigate()
     const getData=()=>{
 axios.get("http://localhost:8000/posts")
 .then(res=>setData(res.data))
@@ -31,7 +33,10 @@ data.map((el)=>{
     alert("Login Successfull")
     window.location.href="/"
 a=true;
-    
+    updateAuth(true);
+  navigate("/")
+    console.log(isAuth)
+  
     }
 })
 if(a===false){
