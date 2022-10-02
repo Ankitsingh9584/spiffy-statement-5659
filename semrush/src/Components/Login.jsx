@@ -76,6 +76,7 @@ if(a===false){
                   <Link color={'#ff642d'}>Forgot password?</Link>
                 </Stack>
                 <Button
+                border={"2px solid white"}
                   bg={'#ff642d'}
                   color={'white'}
                   _hover={{
