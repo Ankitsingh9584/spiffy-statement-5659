@@ -29,6 +29,7 @@ data.map((el)=>{
    
     if(el.email==email&&el.password==pass){
     alert("Login Successfull")
+    window.location.href="/"
 a=true;
     
     }
